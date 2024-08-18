@@ -33,7 +33,7 @@
 
 <h2>AWS Web Hosting</h2>
 <p>
-  The website is hosted on Amazon S3 and can be accessed at: <a href="http://profilefyi.s3-website-us-east-1.amazonaws.com">E-Commerce Application</a>.
+  The website is hosted on Amazon Amplify which offers a Git-based CI/CD workflow for building, deploying, and hosting single-page web applications or static sites with serverless backends. The application can be accessed using the following link: <a href="https://main.d1tttrarkmq5h2.amplifyapp.com/">E-Commerce Application</a>
 </p>
 
 <h2>How to Use the Application</h2>
@@ -68,5 +68,6 @@
   <li>Once satisfied with the cart, review the total price and proceed with checkout.</li>
 </ul>
 
+<br>
 <p>Here is a sample video on the functioning of the application: <a href="https://drive.google.com/file/d/1Bm4QL0Xj4vIbh8Jj8P-NHdkJZ8OSxfZ4/view?usp=sharing">Video</a>
 </p>
