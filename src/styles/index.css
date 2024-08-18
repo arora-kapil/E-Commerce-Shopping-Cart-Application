@@ -85,29 +85,20 @@ h1 {
 
 .img-container {
   width: 100%;
-  /* Ensures the container takes the full width of the product */
   height: 220px;
-  /* Adjust height as needed */
   background: white;
-  /* White background for the image */
   display: flex;
   justify-content: center;
-  /* Centers the image horizontally */
   align-items: center;
-  /* Centers the image vertically */
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
 
 .product img {
   width: auto;
-  /* Allows the image to scale proportionally */
   height: 100%;
-  /* Ensures the image takes up the full height of the container */
   max-width: 100%;
-  /* Keeps the image within the bounds of the container */
   object-fit: contain;
-  /* Maintains aspect ratio and fits within the container */
 }
 
 .product-content {
@@ -163,11 +154,8 @@ h1 {
   font-size: 1rem;
   cursor: pointer;
   position: relative;
-  /* Needed for positioning the tick mark */
   overflow: hidden;
-  /* Ensure no overflow from pseudo-elements */
   transition: background 0.3s ease;
-  /* Smooth background transition */
 }
 
 .product-actions button::after {
@@ -178,17 +166,13 @@ h1 {
   transform: translate(-50%, -50%);
   font-size: 1.5rem;
   color: #fff;
-  /* White color for the tick mark */
   opacity: 0;
   transition: opacity 0.5s ease, transform 0.5s ease;
-  /* Fade in/out and scale effect */
 }
 
 .product-actions button.clicked::after {
   opacity: 1;
-  /* Show the tick mark when clicked */
   transform: translate(-50%, -50%) scale(1.2);
-  /* Slightly scale the tick mark */
 }
 
 .product-actions button span {
@@ -198,7 +182,6 @@ h1 {
 
 .product-actions button.clicked span {
   opacity: 0;
-  /* Hide the text when clicked */
 }
 
 #modal {
@@ -343,7 +326,6 @@ h1 {
   }
 }
 
-/* General Cart Container */
 .cart-container {
   display: flex;
   justify-content: space-between;
@@ -354,7 +336,6 @@ h1 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Cart Items Section */
 .cart-items {
   width: 60%;
   padding: 1rem;
@@ -461,7 +442,6 @@ h1 {
   background: #f55a5a;
 }
 
-/* Cart Summary Section */
 .cart-summary {
   width: 35%;
   padding: 1rem;
@@ -532,7 +512,6 @@ h1 {
   background: none;
   border: none;
   color: #1a73e8;
-  /* Link color */
   text-decoration: underline;
   font-size: 1rem;
   cursor: pointer;
@@ -542,5 +521,4 @@ h1 {
 
 .offer-button:hover {
   color: #155ab1;
-  /* Darker shade on hover */
 }
